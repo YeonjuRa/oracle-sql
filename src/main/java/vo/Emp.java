@@ -9,6 +9,8 @@ public class Emp {
 	private double sal;
 	private int comm;
 	private int deptNo;
+	private String password;
+	private int grade;
 	
 	public int getEmpNo() {
 		return empNo;
@@ -58,6 +60,17 @@ public class Emp {
 	public void setDeptNo(int deptNo) {
 		this.deptNo = deptNo;
 	}
-	
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public int getGrade() {
+		return grade;
+	}
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
 	
 }
